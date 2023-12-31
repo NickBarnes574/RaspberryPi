@@ -3,6 +3,7 @@
 #include "tcp_server.h"
 #include "utilities.h"
 
+#include <bcm2835.h> // For Raspberry Pi GPIO
 #include <unistd.h>
 
 #define MAX_BUFF_SIZE   14

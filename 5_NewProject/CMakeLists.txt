@@ -12,4 +12,4 @@ set(SOURCES
 add_executable(NewProject ${SOURCES})
 
 # Link against Common and Networking libraries
-target_link_libraries(NewProject PUBLIC Common Networking Threading)
+target_link_libraries(NewProject PUBLIC Common Networking Threading bcm2835)
